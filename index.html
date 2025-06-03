@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dispositivo Anti-Enchentes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Dispositivo de Monitoramento de Bueiros</h1>
+  </header>
+  <nav>
+    <a href="#secao1">Problema</a>
+    <a href="#secao2">Tecnologias</a>
+    <a href="#secao3">Objetivos</a>
+    <a href="#secao4">Público-Alvo</a>
+    <a href="#secao5">Benefícios</a>
+    <a href="#secao6">Uso Diário</a>
+    <button class="btn-cor">🌤️</button>
+    <button class="btn-cor">🌧️</button>
+    <button class="btn-cor">🌙</button>
+    <button id="menu-toggle">☰</button>
+  </nav>
+
+  <main>
+    <section id="secao1">
+      <h2>O problema que sua solução irá resolver:</h2>
+      <p>- Enchentes urbanas causam prejuízos e riscos à vida.</p>
+      <p>- Falta de monitoramento em tempo real agrava o problema.</p>
+      <img src="/src/assets/imgs/bueiro-enchente.png" alt="Imagem de uma enchente urbana" />
+    </section>
+
+    <section id="secao2">
+      <h2>Tecnologias que serão utilizadas:</h2>
+      <p>- Sensores de nível de água instalados nos bueiros.</p>
+      <p>- Transmissão de dados via rede LoRa ou NB-IoT.</p>
+      <img src="/src/assets/imgs/bueiro-tecnologia.png" alt="Diagrama do sensor e comunicação" />
+    </section>
+
+    <section id="secao3">
+      <h2>Objetivos que pretendem alcançar:</h2>
+      <p>- Alertar autoridades antes que a enchente aconteça.</p>
+      <p>- Reduzir danos materiais e salvar vidas.</p>
+      <img src="/src/assets/imgs/bueiro-objetivos.png" alt="Imagem com dados e alertas" />
+    </section>
+
+    <section id="secao4">
+      <h2>Público-alvo que será impactado:</h2>
+      <p>- Órgãos de defesa civil e prefeituras.</p>
+      <p>- Moradores de áreas de risco.</p>
+      <img src="/src/assets/imgs/bueiro-publicos.png" alt="Moradores em área de risco" />
+    </section>
+
+    <section id="secao5">
+      <h2>Benefícios oferecidos pela solução</h2>
+      <p>✅ Monitoramento em tempo real do nível da água nos bueiros.</p>
+      <p>✅ Redução dos riscos de alagamentos por meio de alertas antecipados.</p>
+      <p>✅ Apoio à tomada de decisão por parte das autoridades públicas.</p>
+      <p>✅ Prevenção de prejuízos materiais e perda de vidas.</p>
+      <p>✅ Automação do processo de vigilância, com menos necessidade de ações manuais.</p>
+    </section>
+
+    <section id="secao6">
+      <h2>Como ajudará no dia a dia</h2>
+      <p>🔸 Durante o período de chuvas, o sistema emite alertas automáticos sempre que o nível da água atinge um ponto crítico.</p>
+      <p>🔸 As equipes da defesa civil podem se antecipar para agir antes que a situação piore.</p>
+      <p>🔸 Os moradores das áreas monitoradas podem ser avisados com antecedência, o que aumenta a segurança.</p>
+      <p>🔸 Reduz a necessidade de inspeções presenciais constantes, economizando recursos.</p>
+      <p>🔸 Promove mais tranquilidade para a população, principalmente em regiões propensas a alagamentos.</p>
+    </section>
+
+    <section id="formulario">
+      <h2>Entre em Contato</h2>
+      <form id="form-contato">
+        <label>Nome:<br><input type="text" name="nome" required /></label><br><br>
+        <label>Email:<br><input type="email" name="email" required /></label><br><br>
+        <label>Mensagem:<br><textarea name="mensagem" rows="5" required></textarea></label><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="quiz">
+      <h2>Quiz: Você conhece nossa solução?</h2>
+      <div id="quiz"></div>
+      <button id="enviar-quiz">Enviar Respostas</button>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Solução Anti-Enchentes. Todos os direitos reservados.</p>
+  </footer>
+  <script src="/src/assets/js/script.js"></script>
+</body>
+
+</html>
